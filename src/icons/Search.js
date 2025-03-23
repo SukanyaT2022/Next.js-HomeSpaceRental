@@ -5,7 +5,6 @@ const styling = {
     width: `${props.width}px`,
     color: `${props.color}`
 }
-console.log(styling);
 
   return (
     <div>
