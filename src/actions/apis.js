@@ -49,3 +49,7 @@ export const hotelData2 = async() =>{
             console.error(error);
         }
     }
+
+
+    // MERN (Mongo React|NEXT Node.js)
+    // LAMP (Laraverl Vue.js mysql)
