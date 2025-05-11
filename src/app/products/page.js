@@ -1,67 +1,72 @@
 "use client";
-import React, { useEffect, useState } from 'react'
-import Slider from '@/component/Slider'
+import React, { useEffect, useState } from "react";
 
-const page = () => {
+const Allproducts = () => {
   const [data, setData] = useState(null);
+
   useEffect(() => {
-    fetch('http://localhost:3000/api/products') // Replace with your API endpoint
-      .then((response) => response.json() )      
+    fetch("http://localhost:3000/api/products")
+      .then((response) => response.json())
       .then((data) => {
-        console.log(data)
+        console.log(data);
         setData(data);
-      })      
+      });
   }, []);
+
   return (
-    <div className="bg-white flex justify-around flex-wrap rounded-2xl shadow-lg overflow-hidden mt-12">
+    <div className="container mx-auto px-4 py-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {data &&
+          data.map((item, idx) => (
+            <div
+              key={idx}
+              className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
+            >
+              <img
+                src={item.image[0]}
+                alt={item.name}
+                className="w-full h-56 object-cover"
+              />
 
-  {/* Map starts here */}
+              <div className="p-5 space-y-3">
+                <h2 className="text-xl font-semibold text-gray-800">
+                  {item.name}
+                </h2>
+                <p className="text-gray-600 text-sm line-clamp-3">
+                  {item.description}
+                </p>
 
-  {data && data.map((item)=>(
+                <div className="text-sm text-gray-700 space-y-1">
+                  <p>
+                    <span className="font-medium">Bedrooms:</span>{" "}
+                    {item.noBed}
+                  </p>
+                  <p>
+                    <span className="font-medium">Price:</span>{" "}
+                    ${item.pricePerNight}
+                  </p>
+                  <p>
+                    <span className="font-medium">Rating:</span> ⭐{" "}
+                    {item.rating}
+                  </p>
+                </div>
 
-<div>
-  {/* <img src={item.image} alt="Cityscape Hotel" className="w-full h-48 object-cover" /> */}
-    <Slider images = {item.image} />
-
-  <div className="p-4 space-y-2">
-    <h2 className="text-xl font-bold text-gray-800">{item.name}</h2>
-    <p className="text-sm text-gray-600">
-     {item.description}
-    </p>
-
-    <div className="text-sm text-gray-700">
-      <p><span className="font-semibold">Bedrooms:</span>{item.noBed}</p>
-      <p><span className="font-semibold">Price:</span>{item.pricePerNight}</p>
-      <p><span className="font-semibold">Rating:</span> ⭐ {item.rating}</p>
-    </div>
-
-    <div>
-      <p className="font-semibold text-gray-700">Rooms Available:{item.roomsAvailable}</p>
-      <ul className="list-disc ml-5 text-sm text-gray-600">
-        <li>No of Bedroom: {item.bedrooms}</li>
-        <li>3 seater</li>
-        <li>deluxe suite</li>
-      </ul>
-    </div>
-
-    {/* <div>
-      <p className="font-semibold text-gray-700">Amenities:</p>
-      <div className="flex flex-wrap gap-2 mt-1">
-        {['WiFi', 'Gym', 'Room Service'].map((amenity, i) => (
-          <span
-            key={i}
-            className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full"
-          >
-            {amenity}
-          </span>
-        ))}
+                <div>
+                  <p className="font-medium text-gray-700">
+                    Rooms Available: {item.roomsAvailable}
+                  </p>
+                  <ul className="list-disc ml-5 text-sm text-gray-600 space-y-1">
+                    <li>No of Bedroom: {item.bedrooms}</li>
+                    <li>3 seater</li>
+                    <li>Deluxe suite</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          ))}
       </div>
-    </div> */}
-
-  </div>
     </div>
-    ))}
-  </div>
-)}
+  );
+};
 
-export default page
+export default Allproducts;
