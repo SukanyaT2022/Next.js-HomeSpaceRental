@@ -8,6 +8,8 @@ export async function GET() {
       "bedrooms": 1,
       "price": 120,
       "rating": 4.5,
+      "free_cancel": true,
+      "free_cancel": true,
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
       // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Breakfast", "Parking"]
@@ -20,6 +22,7 @@ export async function GET() {
       "bedrooms": 2,
       "price": 180,
       "rating": 4.7,
+      "free_cancel": true,
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
       // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Gym", "Room Service"]
@@ -32,6 +35,7 @@ export async function GET() {
       "bedrooms": 2,
       "price": 150,
       "rating": 4.3,
+      "free_cancel": false,
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
       // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Breakfast", "Boat Rental"]
@@ -44,6 +48,7 @@ export async function GET() {
       "bedrooms": 1,
       "price": 130,
       "rating": 4.6,
+      "free_cancel": true,
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
       // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Hiking Trails", "Parking"]
@@ -56,6 +61,7 @@ export async function GET() {
       "bedrooms": 2,
       "price": 220,
       "rating": 4.8,
+      "free_cancel": false,
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
       // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Pool", "Breakfast"]
@@ -68,6 +74,7 @@ export async function GET() {
       "bedrooms": 1,
       "price": 140,
       "rating": 4.4,
+      "free_cancel": true,
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
       // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Breakfast", "Guided Tours"]
@@ -80,6 +87,7 @@ export async function GET() {
       "bedrooms": 2,
       "price": 200,
       "rating": 4.9,
+      "free_cancel": true,
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
       // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Fitness Center", "Bar"]
@@ -92,6 +100,7 @@ export async function GET() {
       "bedrooms": 3,
       "price": 160,
       "rating": 4.2,
+      "free_cancel": true,
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
       // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Breakfast", "Garden"]
@@ -104,6 +113,7 @@ export async function GET() {
       "bedrooms": 1,
       "price": 250,
       "rating": 5.0,
+      "free_cancel": true,
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
       // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Spa", "Concierge"]
@@ -116,6 +126,7 @@ export async function GET() {
       "bedrooms": 2,
       "price": 190,
       "rating": 4.6,
+      "free_cancel": true,
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
       // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Pool", "Beach Access"]
