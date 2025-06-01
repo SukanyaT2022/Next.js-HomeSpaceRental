@@ -9,9 +9,8 @@ export async function GET() {
       "price": 120,
       "rating": 4.5,
       "free_cancel": true,
-      "free_cancel": true,
+      "city": "San Francisco",
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
-      // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Breakfast", "Parking"]
     },
     {
@@ -23,8 +22,8 @@ export async function GET() {
       "price": 180,
       "rating": 4.7,
       "free_cancel": true,
+      "city": "New York",
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
-      // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Gym", "Room Service"]
     },
     {
@@ -36,8 +35,8 @@ export async function GET() {
       "price": 150,
       "rating": 4.3,
       "free_cancel": false,
+      "city": "Minneapolis",
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
-      // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Breakfast", "Boat Rental"]
     },
     {
@@ -49,8 +48,8 @@ export async function GET() {
       "price": 130,
       "rating": 4.6,
       "free_cancel": true,
+      "city": "Denver",
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
-      // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Hiking Trails", "Parking"]
     },
     {
@@ -62,8 +61,8 @@ export async function GET() {
       "price": 220,
       "rating": 4.8,
       "free_cancel": false,
+      "city": "Miami",
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
-      // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Pool", "Breakfast"]
     },
     {
@@ -75,8 +74,8 @@ export async function GET() {
       "price": 140,
       "rating": 4.4,
       "free_cancel": true,
+      "city": "Philadelphia",
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
-      // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Breakfast", "Guided Tours"]
     },
     {
@@ -88,8 +87,8 @@ export async function GET() {
       "price": 200,
       "rating": 4.9,
       "free_cancel": true,
+      "city": "Chicago",
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
-      // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Fitness Center", "Bar"]
     },
     {
@@ -101,8 +100,8 @@ export async function GET() {
       "price": 160,
       "rating": 4.2,
       "free_cancel": true,
+      "city": "Nashville",
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
-      // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Breakfast", "Garden"]
     },
     {
@@ -114,8 +113,8 @@ export async function GET() {
       "price": 250,
       "rating": 5.0,
       "free_cancel": true,
+      "city": "Los Angeles",
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
-      // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Spa", "Concierge"]
     },
     {
@@ -127,12 +126,141 @@ export async function GET() {
       "price": 190,
       "rating": 4.6,
       "free_cancel": true,
+      "city": "San Diego",
       "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
-      // "sampleImage": "https://via.placeholder.com/150",
       "amenities": ["WiFi", "Pool", "Beach Access"]
+    },
+    {
+      "id": 11,
+      "name": "Forest Glade Inn",
+      "description": "A peaceful inn surrounded by forest views and fresh air.",
+      "roomsAvailable": ["2 seater", "family suite"],
+      "bedrooms": 2,
+      "price": 135,
+      "rating": 4.1,
+      "free_cancel": true,
+      "city": "Portland",
+      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "amenities": ["WiFi", "Breakfast", "Nature Walks"]
+    },
+    {
+      "id": 12,
+      "name": "Skyline Suites",
+      "description": "Modern suites with skyline views and urban comfort.",
+      "roomsAvailable": ["2 seater", "sky suite"],
+      "bedrooms": 1,
+      "price": 210,
+      "rating": 4.6,
+      "free_cancel": false,
+      "city": "Seattle",
+      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "amenities": ["WiFi", "Fitness Center", "Rooftop Lounge"]
+    },
+    {
+      "id": 13,
+      "name": "Riverside Inn",
+      "description": "Charming inn beside the river with cozy accommodations.",
+      "roomsAvailable": ["2 seater", "3 seater"],
+      "bedrooms": 1,
+      "price": 110,
+      "rating": 4.2,
+      "free_cancel": true,
+      "city": "Austin",
+      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "amenities": ["WiFi", "Parking", "Breakfast"]
+    },
+    {
+      "id": 14,
+      "name": "The Grand Plaza",
+      "description": "Luxurious downtown hotel with grand interiors and first-class service.",
+      "roomsAvailable": ["3 seater", "deluxe suite"],
+      "bedrooms": 3,
+      "price": 300,
+      "rating": 4.9,
+      "free_cancel": false,
+      "city": "Las Vegas",
+      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "amenities": ["WiFi", "Casino", "Spa"]
+    },
+    {
+      "id": 15,
+      "name": "Island Breeze Resort",
+      "description": "Relaxing island resort offering ocean breezes and tropical experiences.",
+      "roomsAvailable": ["2 seater", "beach suite"],
+      "bedrooms": 2,
+      "price": 240,
+      "rating": 4.8,
+      "free_cancel": true,
+      "city": "Honolulu",
+      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "amenities": ["WiFi", "Pool", "Breakfast"]
+    },
+    {
+      "id": 16,
+      "name": "City Central Inn",
+      "description": "Convenient and comfortable stay located in the city center.",
+      "roomsAvailable": ["2 seater", "3 seater"],
+      "bedrooms": 1,
+      "price": 115,
+      "rating": 4.0,
+      "free_cancel": true,
+      "city": "Atlanta",
+      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "amenities": ["WiFi", "Room Service", "Parking"]
+    },
+    {
+      "id": 17,
+      "name": "Snowpeak Lodge",
+      "description": "Winter lodge ideal for skiing and mountain retreats.",
+      "roomsAvailable": ["2 seater", "ski suite"],
+      "bedrooms": 2,
+      "price": 180,
+      "rating": 4.5,
+      "free_cancel": false,
+      "city": "Salt Lake City",
+      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "amenities": ["WiFi", "Fireplace", "Ski Rental"]
+    },
+    {
+      "id": 18,
+      "name": "Desert Mirage Inn",
+      "description": "A luxurious stay in the heart of the desert.",
+      "roomsAvailable": ["3 seater", "mirage suite"],
+      "bedrooms": 3,
+      "price": 230,
+      "rating": 4.6,
+      "free_cancel": true,
+      "city": "Phoenix",
+      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "amenities": ["WiFi", "Pool", "Desert Tours"]
+    },
+    {
+      "id": 19,
+      "name": "Harbour View Hotel",
+      "description": "Beautiful hotel with views of the harbour and nearby attractions.",
+      "roomsAvailable": ["2 seater", "suite"],
+      "bedrooms": 1,
+      "price": 175,
+      "rating": 4.4,
+      "free_cancel": true,
+      "city": "Boston",
+      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "amenities": ["WiFi", "Restaurant", "Parking"]
+    },
+    {
+      "id": 20,
+      "name": "Meadowview Resort",
+      "description": "Stay close to nature with this picturesque countryside resort.",
+      "roomsAvailable": ["2 seater", "cabin suite"],
+      "bedrooms": 2,
+      "price": 155,
+      "rating": 4.3,
+      "free_cancel": true,
+      "city": "Boise",
+      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "amenities": ["WiFi", "Breakfast", "Nature Trails"]
     }
-  ]
-  ), {
+  ]), {
     status: 200,
     headers: { 'Content-Type': 'application/json' },
   });

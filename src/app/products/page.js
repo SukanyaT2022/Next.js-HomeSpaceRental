@@ -43,18 +43,27 @@ const Allproducts = () => {
                     <span className="font-medium">Bedrooms:</span>{" "}
                     {item.noBed}
                   </p> */}
-                   <p>
+                  
+                <p>
                     {/* //if data,json s true show free cellation if false show no text */}
                     {item.free_cancel && "Free Cancellation"}
                   </p>
+                  
                   <p>
-                    <span className="font-medium">Price:</span>{" "}
+                    <span className="font-medium">Price:</span>
                     ${item.price}
                   </p>
+
+                  <p>
+                  <span className="font-medium">City:</span>
+                    {item.city}
+                  </p>
+                  
                   <p>
                     <span className="font-medium">Rating:</span> ⭐{" "}
                     {item.rating}
                   </p>
+                
                 </div>
 
                 <div>
