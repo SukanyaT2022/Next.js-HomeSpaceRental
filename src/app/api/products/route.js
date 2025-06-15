@@ -10,7 +10,11 @@ export async function GET() {
       "rating": 4.5,
       "free_cancel": true,
       "city": "San Francisco",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Breakfast", "Parking"]
     },
     {
@@ -23,7 +27,11 @@ export async function GET() {
       "rating": 4.7,
       "free_cancel": true,
       "city": "New York",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Gym", "Room Service"]
     },
     {
@@ -36,7 +44,11 @@ export async function GET() {
       "rating": 4.3,
       "free_cancel": false,
       "city": "Minneapolis",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Breakfast", "Boat Rental"]
     },
     {
@@ -49,7 +61,11 @@ export async function GET() {
       "rating": 4.6,
       "free_cancel": true,
       "city": "Denver",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Hiking Trails", "Parking"]
     },
     {
@@ -62,7 +78,11 @@ export async function GET() {
       "rating": 4.8,
       "free_cancel": false,
       "city": "Miami",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1559599238-1fc447d1d94e?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Pool", "Breakfast"]
     },
     {
@@ -75,7 +95,11 @@ export async function GET() {
       "rating": 4.4,
       "free_cancel": true,
       "city": "Philadelphia",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1586611292717-f828b167408c?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Breakfast", "Guided Tours"]
     },
     {
@@ -88,7 +112,11 @@ export async function GET() {
       "rating": 4.9,
       "free_cancel": true,
       "city": "Chicago",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1561501900-3701fa6a0864?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Fitness Center", "Bar"]
     },
     {
@@ -101,7 +129,11 @@ export async function GET() {
       "rating": 4.2,
       "free_cancel": true,
       "city": "Nashville",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1587061949409-02df41d5e562?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Breakfast", "Garden"]
     },
     {
@@ -114,7 +146,11 @@ export async function GET() {
       "rating": 5.0,
       "free_cancel": true,
       "city": "Los Angeles",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Spa", "Concierge"]
     },
     {
@@ -127,7 +163,11 @@ export async function GET() {
       "rating": 4.6,
       "free_cancel": true,
       "city": "San Diego",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1559599238-1fc447d1d94e?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Pool", "Beach Access"]
     },
     {
@@ -140,7 +180,11 @@ export async function GET() {
       "rating": 4.1,
       "free_cancel": true,
       "city": "Portland",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Breakfast", "Nature Walks"]
     },
     {
@@ -153,7 +197,11 @@ export async function GET() {
       "rating": 4.6,
       "free_cancel": false,
       "city": "Seattle",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1566073771259-6a8506862ae3?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Fitness Center", "Rooftop Lounge"]
     },
     {
@@ -166,7 +214,11 @@ export async function GET() {
       "rating": 4.2,
       "free_cancel": true,
       "city": "Austin",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Parking", "Breakfast"]
     },
     {
@@ -179,7 +231,11 @@ export async function GET() {
       "rating": 4.9,
       "free_cancel": false,
       "city": "Las Vegas",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Casino", "Spa"]
     },
     {
@@ -192,7 +248,11 @@ export async function GET() {
       "rating": 4.8,
       "free_cancel": true,
       "city": "Honolulu",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1559599238-1fc447d1d94e?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Pool", "Breakfast"]
     },
     {
@@ -205,7 +265,11 @@ export async function GET() {
       "rating": 4.0,
       "free_cancel": true,
       "city": "Atlanta",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1566073771259-6a8506862ae3?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1561501900-3701fa6a0864?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Room Service", "Parking"]
     },
     {
@@ -218,7 +282,11 @@ export async function GET() {
       "rating": 4.5,
       "free_cancel": false,
       "city": "Salt Lake City",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Fireplace", "Ski Rental"]
     },
     {
@@ -231,7 +299,11 @@ export async function GET() {
       "rating": 4.6,
       "free_cancel": true,
       "city": "Phoenix",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1587061949409-02df41d5e562?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1471919743851-c4df8b6ee071?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Pool", "Desert Tours"]
     },
     {
@@ -244,7 +316,11 @@ export async function GET() {
       "rating": 4.4,
       "free_cancel": true,
       "city": "Boston",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1566073771259-6a8506862ae3?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Restaurant", "Parking"]
     },
     {
@@ -257,7 +333,11 @@ export async function GET() {
       "rating": 4.3,
       "free_cancel": true,
       "city": "Boise",
-      "image": ["/Images/cat1.png", "/Images/cat7.jpg", "/Images/dog1.png"],
+      "image": [
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800&h=600&fit=crop"
+      ],
       "amenities": ["WiFi", "Breakfast", "Nature Trails"]
     }
   ]), {

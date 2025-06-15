@@ -2,16 +2,19 @@
 
 import Navbar from '@/component/Navbar';
 import Allproducts from './products/page';
+import React, { useState } from "react";
 
 export default function HomeClientWrapper({ data }) {
+  const [search, setSearch] = useState("");
+
   const getSearchValue = (val) => {
-    console.log(val);
+    setSearch(val);
   };
 
   return (
     <div>
       <Navbar getSearchValue={getSearchValue} />
-      <Allproducts />
+      <Allproducts searchStore={search} />
     </div>
   );
 }

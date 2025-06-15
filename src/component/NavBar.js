@@ -1,44 +1,4 @@
-// import React from 'react'
-// import Search from '../icons/Search'
-
-// const SearchBarComp = () => {
-//   return (
-//     <div className='mainSearBar'>
-//         {/* Destination */}
-//         <div className='destination'>
-//           <select>
-//             <option>NY</option>
-//             <option>NY</option>
-//             <option>NY</option>
-//             <option>NY</option>
-//           </select>
-//         </div>
-
-//         {/* Checkin */}
-//         <div className='checkin'>
-//           <input type='date'/>
-//         </div>
-
-//         {/* Checkout */}
-//         <div className='checkout'>
-//           <input type='date'/>
-//         </div>
-
-//         {/* How many */}
-//         <div className='guest'>
-//           <input type='date'/>
-//         </div>
-
-//         {/* Search Icon */}
-//         <div>
-//           <Search width="30" color="orange"/>
-//           <button>Search</button>
-//         </div>
-//     </div>
-//   )
-// }
-
-// export default SearchBarComp
+//search function - Step 1: Store whatever user types in search box
 
 
 "use client";
@@ -161,12 +121,12 @@ const Navbar = (props) => {
         </div>
         
         {/* Search button */}
-        <div className="w-full sm:w-auto p-2 sm:pr-3">
+        {/* <div className="w-full sm:w-auto p-2 sm:pr-3">
           <button className="w-full sm:w-auto bg-rose-500 hover:bg-rose-600 text-white p-3 rounded-full flex items-center justify-center transition">
             <Search size={18} />
             <span className="ml-2 font-medium">Search</span>
           </button>
-        </div>
+        </div> */}
       </div>
       
       {/* Expanded search content */}

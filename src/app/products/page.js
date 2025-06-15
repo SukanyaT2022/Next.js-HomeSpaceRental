@@ -1,22 +1,35 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-const Allproducts = () => {
+const Allproducts = (props) => {
   const [data, setData] = useState(null);
+
+  // console.log("All Prdoucts: "+props.searchStore)
 
   useEffect(() => {
     fetch("http://localhost:3000/api/products")
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         setData(data);
       });
   }, []);
 
+
+  useEffect(() => {
+    fetch("http://localhost:3000/api/products")
+      .then((response) => response.json())
+      .then((data) => {
+        const searchStore = props.searchStore.toLowerCase();
+        const filter = data.filter(item => item.city.toLowerCase().includes(searchStore));
+        console.log(filter)
+        setData(filter);
+      });
+  }, [props.searchStore]);
+
   return (
     <div className="container mx-auto px-4 py-10">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        {data &&
+        {data.length>0 ?
           data.map((item, idx) => (
             <a
             //which box that we crate id
@@ -78,7 +91,7 @@ const Allproducts = () => {
                 </div>
               </div>
             </a>
-          ))}
+          )) : <h1 className="text text-center">No record Found</h1>}
       </div>
     </div>
   );
